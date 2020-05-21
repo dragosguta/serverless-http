@@ -1,0 +1,35 @@
+{
+  "name": "serverless-http",
+  "version": "1.0.0",
+  "description": "convert external request/response to node http",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "test": "npx jest",
+    "build": "rm -rf build && npx tsc"
+  },
+  "author": "DG",
+  "license": "UNLICENSE",
+  "private": true,
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.51",
+    "@types/express": "^4.17.6",
+    "@types/jest": "^25.2.3",
+    "@types/koa": "^2.11.3",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-compress": "^4.0.0",
+    "@types/koa-route": "^3.2.4",
+    "express": "^4.17.1",
+    "jest": "^26.0.1",
+    "koa": "^2.12.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compress": "^4.0.1",
+    "koa-route": "^3.2.0",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "utilities": "git+https://github.com/dragosguta/utilities.git",
+    "zlib": "^1.0.5"
+  }
+}
