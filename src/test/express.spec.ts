@@ -6,8 +6,8 @@ import { STATUS_CODES, IncomingHttpHeaders } from 'http'
 
 import { CloudFrontRequestEvent } from 'aws-lambda'
 
-import serverless from '../serverless'
-import { lambdaOriginRequest } from '../handler'
+import serverless from '../http/serverless'
+import { lambdaOriginRequest } from '../http/handler'
 
 import * as event from './cloudfront-request.json'
 
